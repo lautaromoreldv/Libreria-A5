@@ -1,0 +1,337 @@
+* {
+    box-sizing: border-box;
+    margin:0px;
+    padding:0px; 
+}
+
+.icono{
+    height: 65px;
+    width: 65px;
+}
+
+body{
+    background-color: #F7F7F7;
+    padding-top: 65px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.navbar{
+    background-color:#fca41e;
+    padding: 0rem 1.5rem;
+}
+.navbar-brand{
+    padding-bottom: 0;
+    padding-top: 0;
+}
+#inicio{
+    margin-top: -.5em;
+}
+
+.barra{
+    margin: auto;
+	max-width: 1200px;
+}
+
+#navbarNav .nav-link{
+    color: #3C4858;
+    font-size: 18px;
+    font-weight: 500;
+}
+#navbarNav .nav-link:hover{
+    color: #fff;
+}
+
+.nav-item.active > .nav-link{
+    color: #fff !important;
+}
+
+h1, h2, h3, h4, h5, h6, li{
+    font-family: Roboto, sans-serif;
+}
+
+p, label, button, a{
+    font-family: Lato, sans-serif;
+}
+
+.volver{
+    color: #3C4858 !important;
+}
+.btnaccion{
+    background-color: #FFD26B !important;
+    color: #000;
+    border: 1px solid #FFD26B;
+}
+.btnaccion:hover{
+    background-color: #fca41e !important;
+    border: 1px solid #fca41e;
+    text-decoration: none;
+    color: #000;
+}
+.ver_producto, .comprar, #enviar{
+    background-color: #FFD26B;
+    color: #000;
+    border: 1px solid #FFD26B;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    user-select: none;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+    text-decoration: none;
+}
+.ver_producto:hover, #enviar:hover{
+    background-color: #fca41e;
+    border: 1px solid #fca41e;
+    text-decoration: none;
+    color: #000;
+}
+#cerrar_sesion{
+    background-color: #fca41e;
+    color: #3C4858;
+    border: none;
+    text-align: center;
+}
+
+.carrito{
+    background-color: #fca41e;
+    border: 1px solid #fca41e;
+    text-align: center;
+    color: #000;
+    border: 1px solid #FFD26B;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    user-select: none;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+    text-decoration: none;
+}
+.carrito:hover, .comprar:hover{
+    background-color: transparent;
+    color: #000;
+    border: 1px solid #FFD26B;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    user-select: none;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+    text-decoration: none;
+}
+
+.icons{
+    list-style:none;
+}
+
+.titleTienda{
+    color: #3C4858;
+}
+.precioTienda{
+    color: #3C4858;
+    font-size: 18px;
+}
+
+#titleProd, #precioProd{
+    color: #3C4858;
+    font-weight: 700;
+}
+#color{
+    margin-bottom: 16px;
+    outline: none !important;
+    outline-width: 0 !important;
+    box-shadow: none;
+    border: 1px solid #C8C8C8;
+}
+#alerta_mensaje{
+    max-width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.alert-dismissible{
+    padding-right: 1em;
+}
+#precioProd{
+    font-size: 24px;
+}
+#titleProd{
+    margin-bottom: .5em;
+}
+.comprar{
+    margin-bottom: 1em;
+}
+#cartas{
+    padding: 2em 1em;
+    margin-bottom: 2em;
+    background-color: #fff;
+}
+#tituloCarta{
+    margin-top: 1em;
+    color: #3C4858;
+}
+
+#e404{
+    font-size: 96px;
+    color: #fca41e;
+    margin: .25em 0;
+}
+#e404p{
+    font-size: 22px;
+    margin: 1em 0;
+}
+.i404{
+    width: 100%;
+    height: auto;
+    margin-top: -2em;
+}
+#btnVolver{
+    background-color: #FFD26B;
+    color: #000;
+    border: 1px solid #FFD26B;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    user-select: none;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+    text-decoration: none;
+}
+.parallax_inicio{
+    background-image: url('../img/banner/banner_inicio.jpg');
+    background-attachment: fixed;
+	background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 35vh;
+}
+.parallax{
+    background-image: url('../img/banner/banner.jpg');
+    background-attachment: fixed;
+	background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 35vh;
+    margin-bottom: 2em;
+}
+.banner{
+    width: 100%;
+    height: auto;
+}
+#fondoNosotros{
+    background-color: #FAE8CC;
+}
+#pNosotros{
+    color: #3C4858;
+}
+#footer{
+    height: 75px;
+    background-color: #3C4858;
+    color: #fff;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+#pFooter{
+    margin: 0;
+}
+
+@media screen and (max-width: 576px){
+    .navbar-nav{
+        margin-bottom: 0.5rem;
+    }
+    #titleProd{
+        margin: 1em 0;
+    }
+    .cartas{
+        margin-bottom: 1em;
+    }
+    .card_descripcion{
+        padding: 1em 3em;
+    }
+    #fondoNosotros{
+        padding: 2em 2em;
+    }
+    .mantenimiento_mobile{
+        width: 100%;
+        height: 100%;
+    }
+    .btncontacto, .btnaccion, .btnborrar{
+        display: block;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 768px){
+    .navbar-nav{
+        margin-bottom: 0.5rem;
+    }
+    #pNosotros{
+        padding: 2em 2em;
+    }
+    .mantenimiento_mobile{
+        background-image: url("../img/mantenimiento_mobile.jpg");
+        background-position: center center;
+        background-attachment: fixed;
+        background-size: cover;
+        width: auto;
+        height: 100vh;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px){
+    .navbar-nav{
+        margin-bottom: 0.5rem;
+    }
+    #pNosotros{
+        padding: 2em 4em;
+    }
+    .mantenimiento_pc{
+        width: 100%;
+        height: 500px;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px){
+    #pNosotros{
+        padding: 2em 8em;
+    }
+    .mantenimiento_pc{
+        background-image: url("../img/mantenimiento_pc.jpg");
+        background-position: center center;
+        background-attachment: fixed;
+        background-size: cover;
+        width: auto;
+        height: 100vh;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    #titleProd{
+        font-size: 36px;
+    }
+    #pNosotros{
+        padding: 2em 10em;
+    }
+    .mantenimiento_pc{
+        width: 100%;
+        height: 100%;
+    }
+}

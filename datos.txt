@@ -1,0 +1,6 @@
+Admin: juanperez@gmail.com
+Pass: 1234
+Usuario comun 1: pepesanchez@gmail.com
+Pass: 1234
+Usuario comun 2: mariagarcia@gmail.com
+Pass: 1234
